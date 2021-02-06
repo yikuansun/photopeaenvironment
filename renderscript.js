@@ -1,0 +1,1 @@
+setTimeout(function() { document.querySelector("#loadingscreen").remove(); }, 5000);
