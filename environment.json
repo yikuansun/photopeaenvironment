@@ -1,9 +1,9 @@
 {
     "resources" : [
-        "https://yikuansun.github.io/photopeaenvironment/resources/grass-fur.abr",
-        "https://yikuansun.github.io/photopeaenvironment/resources/particles.abr",
-        "https://yikuansun.github.io/photopeaenvironment/resources/saber glow.abr",
-        "https://yikuansun.github.io/photopeaenvironment/resources/smoke.abr"
+        "https://github.com/yikuansun/photopeaenvironment/raw/master/resources/grass-fur.abr",
+        "https://github.com/yikuansun/photopeaenvironment/raw/master/resources/particles.abr",
+        "https://github.com/yikuansun/photopeaenvironment/raw/master/resources/saber glow.abr",
+        "https://github.com/yikuansun/photopeaenvironment/raw/master/resources/smoke.abr"
     ],
     "environment" : {          
         "theme"     : 1,         "lang"     : "en",    
