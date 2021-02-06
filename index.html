@@ -3,14 +3,14 @@
     <head>
         <title>Photopea</title>
     </head>
-    <body style="margin: 0; width: 100vw; height: 100vh">
+    <body style="margin: 0; width: 100vw; height: 100vh; display: flex; flex-flow: column;">
         <header id="titlebar" style="width: 100%; height: 35px;">
             <div id="drag-region" style="width: 100%; height: 100%; -webkit-app-region: drag; background-color: #474747;">
                 <center style="user-select: none; line-height: 35px; color: white; font-family: 'Open Sans', Sans-Serif;">Photopea</center>
             </div>
         </header>          
-        <table id="loadingscreen" style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: #474747;"><tr><td><center>updating...</center></td></tr></table>
-        <iframe style="width: 100%; height: 100%; border: 0;" src="https://photopea.com"></iframe>
+        <table id="loadingscreen" style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: #474747; user-select: none; color: white; font-family: 'Open Sans', Sans-Serif;"><tr><td><center>updating...</center></td></tr></table>
+        <iframe style="width: 100%; flex: 1 1 auto; border: 0;" src="https://photopea.com"></iframe>
         <script src="renderscript.js"></script>
     </body>
 </html>
