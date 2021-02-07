@@ -8,6 +8,7 @@ function createWindow () {
     titleBarStyle: "hidden",
     webPreferences: {
       nodeIntegration: true,
+      enableRemoteModule: true,
     }
   });
 
