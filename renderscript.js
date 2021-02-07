@@ -17,4 +17,4 @@ window.addEventListener("message", function(e) {
         a.download = "true";
         a.click();
     }
-})
+});
