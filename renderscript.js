@@ -8,13 +8,3 @@ options = request.responseText;
 setTimeout(function() { document.querySelector("#loadingscreen").remove(); }, 5000);
 
 document.querySelector("iframe").src = "https://www.photopea.com#" + encodeURI(options);
-
-window.addEventListener("message", function(e) {
-    if (e.data instanceof ArrayBuffer) {
-        blob = new Blob([e.data], {type: "image/psd"});
-        a = document.createElement("a");
-        a.href = window.URL.createObjectURL(blob);
-        a.download = "true";
-        a.click();
-    }
-});
