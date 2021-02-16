@@ -1,5 +1,3 @@
-const fs = require("fs");
-
 request = new XMLHttpRequest();
 request.open("GET", "https://raw.githubusercontent.com/yikuansun/photopeaenvironment/master/environment.json", false);
 request.send();
