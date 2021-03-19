@@ -1,4 +1,4 @@
-const {app, BrowserWindow} = require('electron');
+const { app, BrowserWindow, nativeTheme, Menu, shell } = require('electron');
 const path = require('path');
 
 function createWindow () {
@@ -13,6 +13,19 @@ function createWindow () {
   mainWindow.setMenuBarVisibility(false);
   mainWindow.loadFile('index.html');
   mainWindow.maximize();
+  nativeTheme.themeSource = 'dark';
+  Menu.setApplicationMenu(Menu.buildFromTemplate([{
+    label: app.name,
+    submenu: [
+      { label: 'About photopea', click() { shell.openExternal("https://github.com/photopea/photopea/blob/master/README.md#photopeacom") } },
+      { type: 'separator' },
+      { role: 'hide' },
+      { role: 'hideothers' },
+      { role: 'unhide' },
+      { type: 'separator' },
+      { role: 'quit' }
+    ]
+  }]));
 
 }
 
