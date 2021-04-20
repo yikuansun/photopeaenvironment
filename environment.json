@@ -7,7 +7,7 @@
         "https://raw.githubusercontent.com/yikuansun/photopeaenvironment/master/resources/finalfx.atn"
     ],
     "environment" : {          
-        "theme"     : 1,         "lang"     : "en",    
+        "theme"     : 5,         "lang"     : "en",    
         "vmode"     : 0,         "intro"    : true,
         "eparams"   : { "grid": false },
         "customIO"  : {},
