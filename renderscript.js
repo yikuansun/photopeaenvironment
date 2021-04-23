@@ -5,4 +5,4 @@ options = request.responseText;
 
 setTimeout(function() { document.querySelector("#loadingscreen").remove(); }, 5000);
 
-Photopea.initEmbed(document.querySelector("div"), options);
+Photopea.initEmbed(document.querySelector("div"), options).then();
