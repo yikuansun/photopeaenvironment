@@ -23,7 +23,17 @@ function createWindow () {
       { role: 'hideothers' },
       { role: 'unhide' },
       { type: 'separator' },
-      { role: 'quit' }
+      { role: 'quit' },
+      {
+        label: 'Keyboard Shortcuts',
+        submenu: [
+          { type: 'separator' },
+          { role: 'cut' },
+          { role: 'copy' },
+          { role: 'paste' },
+          { role: 'selectall' }
+        ]
+      }
     ]
   }]));
 
