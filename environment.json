@@ -29,6 +29,13 @@
                 "width" : 750,
                 "height": 400,
                 "icon"  : "https://yikuansun.github.io/sci-fi-flares/icon.png"
+            },
+            {
+                "name"  : "Filter Forge",
+                "url"   : "https://www.filterforge.com/filters/",
+                "width" : 750,
+                "height": 400,
+                "icon"  : "https://www.filterforge.com/fficon.ico"
             }
         ]
     }
