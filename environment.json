@@ -29,6 +29,13 @@
                 "width" : 750,
                 "height": 400,
                 "icon"  : "https://yikuansun.github.io/sci-fi-flares/icon.png"
+            },
+            {
+                "name"  : "Space iz kool",
+                "url"   : "https://yikuansun.github.io/dumbspacething/",
+                "width" : 200,
+                "height": 200,
+                "icon"  : "https://yikuansun.github.io/dumbspacething/icon.png"
             }
         ]
     }
