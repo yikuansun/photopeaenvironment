@@ -22,6 +22,13 @@
                 "width" : 400,
                 "height": 500,
                 "icon"  : "https://www.pexels.com/assets/icons/pexels-icon-644533b609157fd990b1a6675626d63077ae1fb81e819c83f81dc2242877d413.png"
+            },
+            {
+                "name"  : "Progen Flares",
+                "url"   : "https://yikuansun.github.io/progenflares/photopea_plugin",
+                "width" : 1000,
+                "height": 500,
+                "icon"  : "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/High-quality_lens_flare_rendering.png/1200px-High-quality_lens_flare_rendering.png"
             }
         ]
     }
