@@ -29,6 +29,13 @@
                 "width" : 1000,
                 "height": 500,
                 "icon"  : "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/High-quality_lens_flare_rendering.png/1200px-High-quality_lens_flare_rendering.png"
+            },
+            {
+                "name"  : "Autoshine",
+                "url"   : "https://yikuansun.github.io/photopea-autoshine/",
+                "width" : 400,
+                "height": 500,
+                "icon"  : "https://upload.wikimedia.org/wikipedia/en/thumb/9/9a/Trollface_non-free.png/220px-Trollface_non-free.png"
             }
         ]
     }
