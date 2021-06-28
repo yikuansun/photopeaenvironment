@@ -36,6 +36,13 @@
                 "width" : 400,
                 "height": 500,
                 "icon"  : "https://yikuansun.github.io/photopea-particlesystem/icon.svg"
+            },
+            {
+                "name"  : "3D Elements",
+                "url"   : "https://yikuansun.github.io/photopea-3delements/",
+                "width" : 400,
+                "height": 500,
+                "icon"  : "https://yikuansun.github.io/photopea-3delements/icon.png"
             }
         ]
     }
