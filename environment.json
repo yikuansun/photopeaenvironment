@@ -43,6 +43,13 @@
                 "width" : 400,
                 "height": 500,
                 "icon"  : "https://yikuansun.github.io/photopea-3delements/icon.png"
+            },
+            {
+                "name"  : "La Aventura de Joe",
+                "url"   : "https://goldencontroller.github.io/adventureofjoe/controlpad.html",
+                "width" : 200,
+                "height": 200,
+                "icon"  : "https://goldencontroller.github.io/adventureofjoe/icon.png"
             }
         ]
     }
